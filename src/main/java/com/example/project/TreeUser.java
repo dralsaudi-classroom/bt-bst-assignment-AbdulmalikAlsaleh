@@ -1,7 +1,7 @@
 package com.example.project;
 
 public class TreeUser {
-	public static <T> int countLeaves(BT<T> bt) {
+    public static <T> int countLeaves(BT<T> bt) {
         if(bt.empty())
             return 0;
         bt.find(Relative.Root);
